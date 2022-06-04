@@ -258,3 +258,78 @@ header {
     font-size: 1.1rem;
     margin-top: 50px;
 }
+
+/* section about us */
+
+
+.aboutUs-hero {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-top: 50px
+}
+
+.aboutUs-video-hero {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs-video-hero video {
+    width: 90%;
+}
+
+.aboutUs-txt-hero {
+    padding: 25px;
+}
+
+.aboutUs-txt-hero h3 {
+    font-size: 1.5rem;
+    color: #2f89fc;
+}
+
+.aboutUs-txt-hero p:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.aboutUs-txt-hero p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 20px 0;
+}
+
+.aboutUs-button-hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUs-button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8000;
+    border-radius: 50px;
+}
+
+.aboutUs-button:nth-child(2){
+    background-color: #2f89fc;
+}
+
+.aboutUs-button a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* section services */
+
+.services-hero{
+    
+}

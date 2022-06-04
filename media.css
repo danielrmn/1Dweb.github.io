@@ -45,3 +45,7 @@
     max-height: 700px;
     margin: 0;
 }
+
+.aboutUs-hero {
+    grid-template-columns: 1fr 1fr;
+}
