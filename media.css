@@ -49,3 +49,15 @@
 .aboutUs-hero {
     grid-template-columns: 1fr 1fr;
 }
+
+/* services section */
+
+.all-services-hero {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.services-hero {
+    width: 90%;
+}

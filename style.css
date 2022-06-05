@@ -330,6 +330,69 @@ header {
 
 /* section services */
 
+.services-section-hero{
+    background-color: #121212;
+    width: 100%;
+}
+
+.services-section-hero h3{
+    font-size: 1.8rem;
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+    color: #2f89fc;
+    padding: 10px 0;
+    border-bottom: 4px solid #ffff ;
+}
+
+.all-services-hero {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
 .services-hero{
-    
+    width: 100%;
+    max-height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+    background-color: #1e1e1e;
+}
+
+.services-hero span{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #2f89fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-hero span img {
+    width: 50px;
+}
+
+.services-info-price-hero {
+    padding-left: 30px;
+}
+
+.services-info-price-hero p:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.services-info-price-hero p{
+    font-size: 1rem;
+    padding: 10px 0;
+    color: #ffff;
+}
+
+.services-info-price-hero p:nth-child(3){
+    font-weight: bold;
+    color: #2f89fc;
 }
