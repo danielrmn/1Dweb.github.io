@@ -74,3 +74,10 @@
 .map-section-hero iframe{
     height: 90%;
 }
+
+/* doctor informations */
+
+
+.all-doctors-hero {
+    grid-template-columns: repeat(3, 1fr);
+}
