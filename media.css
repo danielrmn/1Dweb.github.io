@@ -81,3 +81,15 @@
 .all-doctors-hero {
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* blog section */
+
+.all-blogs-hero {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs-hero {
+    width: 95%;
+}
+
+
