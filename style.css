@@ -689,3 +689,50 @@ header {
     margin: 20px auto 0 auto;
     border-radius: 50px;
 }
+
+.all-testimonials-hero {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    overflow-y:hidden ;
+    padding: 15px;
+    background-color: #2f89fc;
+    margin-top: 30px;
+}
+
+.testimonials-hero {
+    min-width: 100%;
+    height: 540px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    scroll-snap-align: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.testimonials-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-image: url('accets/testimonial.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials-hero p{
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.testimonials-hero p:nth-child(4){
+    font-weight: bold;
+}
