@@ -740,6 +740,12 @@ header {
 
 /* footer section */
 
+footer {
+    background-color: #121212;
+    display: grid;
+    grid-template-rows: auto;
+}
+
 .footer-section-hero {
     margin-top: 50px;
 }
@@ -748,7 +754,6 @@ header {
     display: grid;
     grid-template-rows: repeat(4, auto);
     justify-content: space-between;
-    background-color: #121212;
     padding: 20px;
 }
 
@@ -870,4 +875,19 @@ header {
     font-size: 1rem;
     color: #fff;
     padding: 15px 0;
+}
+
+.copy {
+    padding: 15px;
+    border-top: 1px solid #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.copy p{
+    color: #ffff;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 15px;
 }
