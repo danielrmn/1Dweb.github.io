@@ -92,9 +92,15 @@
     width: 95%;
 }
 
-/*  */
+/* testimonial section */
 
 .testimonials-hero{
     min-width: 32%;
 }
 
+/* footer */
+
+.footer-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: none;
+}
